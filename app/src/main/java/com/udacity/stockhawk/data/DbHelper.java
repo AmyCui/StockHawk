@@ -26,6 +26,16 @@ class DbHelper extends SQLiteOpenHelper {
                 + Quote.COLUMN_PRICE + " REAL NOT NULL, "
                 + Quote.COLUMN_ABSOLUTE_CHANGE + " REAL NOT NULL, "
                 + Quote.COLUMN_PERCENTAGE_CHANGE + " REAL NOT NULL, "
+                + Quote.COLUMN_OPEN + " REAL NOT NULL, "
+                + Quote.COLUMN_DAYHIGH + " REAL NOT NULL, "
+                + Quote.COLUMN_DAYLOW + " REAL NOT NULL, "
+                + Quote.COLUMN_YEARHIGH + " REAL NOT NULL, "
+                + Quote.COLUMN_YEARLOW + " REAL NOT NULL, "
+                + Quote.COLUMN_VOLUME + " INTEGER NOT NULL, "
+                + Quote.COLUMN_AVGVOLUME + " INTEGER NOT NULL, "
+                + Quote.COLUMN_MKTCAP + " REAL NOT NULL, "
+                + Quote.COLUMN_EPS + " REAL NOT NULL, "
+                + Quote.COLUMN_PE + " REAL NOT NULL, "
                 + Quote.COLUMN_HISTORY + " TEXT NOT NULL, "
                 + "UNIQUE (" + Quote.COLUMN_SYMBOL + ") ON CONFLICT REPLACE);";
 

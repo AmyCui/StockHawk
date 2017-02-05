@@ -20,4 +20,31 @@
         <item name="android:textSize">25sp</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="DetailPriceTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="DetailChangeTextStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DetailLabelTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="DetailValueTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="WidgetTitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 </resources>

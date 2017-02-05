@@ -1,24 +1,45 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">Stock Hawk</string>
 
     <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
 
-    <string name="pref_stocks_key">stocks</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
 
 
-    <string name="pref_display_mode_key">displayMode</string>
-    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
 
-    <string name="pref_display_mode_absolute_key">absolute</string>
-    <string name="pref_display_mode_percentage_key">percentage</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
 
-    <string name="default_stocks_yahoo">YHOO</string>
-    <string name="default_stocks_apple">AAPL</string>
-    <string name="default_stocks_microsoft">MSFT</string>
-    <string name="default_stocks_facebook">FB</string>
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
 
 
-    <string name="action_change_units">@string/pref_display_mode_key</string>
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <string name="detail_open">Open</string>
+    <string name="detail_open_desc">Open Price</string>
+    <string name="detail_dayhigh">High</string>
+    <string name="detail_dayhigh_desc">Day High</string>
+    <string name="detail_daylow">Low</string>
+    <string name="detail_daylow_desc">Day Low</string>
+    <string name="detail_yearhigh">YrHigh</string>
+    <string name="detail_yearhigh_desc">Year High</string>
+    <string name="detail_yearlow">YrLow</string>
+    <string name="detail_yearlow_desc">Year Low</string>
+    <string name="detail_volume">Vol.</string>
+    <string name="detail_volume_desc">Volume</string>
+    <string name="detail_avg_volumne">AvgVol.</string>
+    <string name="detail_avg_volume_desc">Average Volume</string>
+    <string name="detail_mktcap">MktCap</string>
+    <string name="detail_mktcap_desc">Market Cap</string>
+    <string name="detail_eps">EPS</string>
+    <string name="detail_eps_desc">Earning per share</string>
+    <string name="detail_pe">P/E</string>
+    <string name="detail_pe_desc">Price to Earning ratio</string>
 
 
     <string name="dialog_title">Add Stock</string>
@@ -29,7 +50,7 @@
     <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
     <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
 
-    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_stock_added_no_connectivity">Symbol (<xliff:g id="symbol">%s</xliff:g>) added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
 
 </resources>
